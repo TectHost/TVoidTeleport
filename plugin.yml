@@ -1,0 +1,7 @@
+main: minealex.tvoidteleport.TVoidTeleport
+version: 1.0
+name: TVoidTeleport
+
+commands:
+  tvoidteleport:
+    description: Help command

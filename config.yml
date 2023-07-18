@@ -1,0 +1,12 @@
+Config:
+  Translate:
+    version: "&5TVoidTeleport &e> &7The version is: &f%version%"
+    console: "&5TVoidTeleport &e> &7You cannot send commands from the console"
+    no-permission: "&5TVoidTeleport &e> &7You do not have permissions"
+    reload: "&5TVoidTeleport &e> &aReloaded"
+    unknown-command: "&5TVoidTeleport &e> &cUnknown command"
+    help: "&5TVoidTeleport &e> &fUse the command &a/tvoidteleport &fto view the version of the plugin"
+  Void:
+    commands:
+      - "tp 0 100 0"
+      - "give @p diamond 1"
