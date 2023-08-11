@@ -8,5 +8,5 @@ Config:
     help: "&5TVoidTeleport &e> &fUse the command &a/tvoidteleport &fto view the version of the plugin"
   Void:
     commands:
-      - "tp 0 100 0"
+      - "tp @p 0 100 0"
       - "give @p diamond 1"

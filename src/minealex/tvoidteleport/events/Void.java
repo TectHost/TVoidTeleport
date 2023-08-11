@@ -5,6 +5,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.entity.Player;
+import org.bukkit.Bukkit;
 
 import java.util.List;
 
@@ -25,9 +26,9 @@ public class Void implements Listener {
             // Obtener la lista de comandos desde la configuración
             List<String> commands = config.getStringList("Config.Void.commands");
 
-            // Ejecutar cada comando para el jugador
+            // Ejecutar cada comando desde la consola
             for (String command : commands) {
-                player.performCommand(command);
+                Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), command.replace("@p", player.getName()));
             }
         }
     }

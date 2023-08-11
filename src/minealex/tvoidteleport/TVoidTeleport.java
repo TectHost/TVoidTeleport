@@ -29,7 +29,7 @@ public class TVoidTeleport extends JavaPlugin{
 	}
 	
 	public void registerCommands() {
-		this.getCommand("tvoidteleport").setExecutor(new Commands(this));
+		this.getCommand("tvt").setExecutor(new Commands(this));
 	}
 	
 	public void registerEvents() {
