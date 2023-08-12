@@ -6,9 +6,9 @@ Simple SetSpawn plugin
 - Multiple commands
 
 # Commands
-- /tvoidteleport reload
-- /tvoidteleport
-- /tvoidteleport version
+- /tvt reload
+- /tvt
+- /tvt version
 
 # Permissions
 - tvoidteleport.reload
